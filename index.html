@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hospital Data</title>
+   
+   
+</head>
+
+<body>
+    <div id="table-container">
+        <div class="headingDiv">
+            <h3 class="heading">Hospital Information</h3>
+            <div class="innerDiv">
+            <input class="search" placeholder="Search Hospital "/>
+            <button id="hospital-header">Sort By Hospital</button>
+            </div>
+        </div>
+      
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Sr.</th>
+                    <th >Hospital</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Address</th>
+                    <th>Pin</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div id="pagination"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
